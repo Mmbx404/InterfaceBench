@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "UI2"
+    }
+  },
+  "defaultProject": "UI2",
+  "cli": {
+    "analytics": "7efc7d20-880f-4149-bcaf-c9681c23b9e8"
+  }
 }

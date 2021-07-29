@@ -1,0 +1,167 @@
+.myContainer {
+  margin-top: 2%;
+  max-width: 95%;
+}
+
+.myRow {
+  background-color: rgba(249,250,252,255);
+  height: 60px;
+}
+.mySecondRow {
+  background-color: rgba(249,250,252,255);
+  margin-top: 1%;
+}
+
+.myCol {
+  background-color: rgba(249,250,252,255);
+}
+
+.myBtn {
+  background-color: white;
+  border: 1px solid green;
+  display: inline-block;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+}
+
+.choice {
+  border-radius: 20px;
+  margin-right: 7px;
+  background-color: rgba(235,239,242,255);
+}
+
+.choice-clicked {
+  border-radius: 20px;
+  margin-right: 7px;
+  background-color: rgba(234,41,124,255);
+  zoom: 1.05;
+}
+
+.icon-clicked {
+  color: white;
+  visibility: visible;
+  zoom: 1.09;
+}
+
+.icon-hidden {
+  visibility: hidden;
+}
+
+.orderOne {
+  background-color: orange;
+  border-radius: 12px;
+  color: white;
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+}
+.orderTwo {
+  background-color: green;
+  border-radius: 12px;
+  color: white;
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+}
+
+.iconVisible {
+  visibility: visible;
+}
+
+.iconInvisible {
+  visibility: hidden;
+}
+
+.span-clicked {
+  color: white;
+  margin-right: 4px;
+}
+
+.span-black {
+  color: black;
+}
+
+table {
+  border: 1px solid rgba(164, 166, 163, 0.47);
+  border-collapse: collapse;
+}
+
+thead {
+  border: 1px solid rgba(164, 166, 163, 0.47);
+  border-collapse: collapse;
+}
+
+.tableTitle1 {
+  text-align: center;
+  width: 100%;
+  border: 1px solid rgba(164, 166, 163, 0.47);
+  background-color: rgba(249,250,252,255);
+  height: 40px;
+  color: rgba(234,41,124,255);
+  padding-top: 5px;
+}
+.tableTitle2 {
+  text-align: center;
+  width: 100%;
+  border: 1px solid rgba(164, 166, 163, 0.47);
+  background-color: white;
+  height: 40px;
+  color: rgba(234,41,124,255);
+  padding-top: 5px;
+}
+
+.allSite {
+  color: rgba(234,41,124,255);
+}
+
+.firstTableTr {
+  background-color: rgba(250,251,253,255);
+}
+
+.trSelected {
+  box-shadow: inset 0px -3px 3px 0px rgba(241,240,242,255);
+  background-color : white;
+  z-index: 10;
+}
+
+.tdGreen {
+  color: rgba(57,201,119,255);
+}
+
+.tdRed {
+  color: rgba(222,5,5,255);
+}
+
+.tdOrange {
+  color: rgba(234,163,80,255);
+}
+
+.tdPink {
+  color: rgba(234,49,128,255);
+  border-left: 3px solid rgba(234,49,128,255);
+}
+
+.table > thead > tr > th {
+  border-bottom: 0;
+}
+
+.secondTableTr {
+  background-color: white;
+}
+
+row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.myPadding {
+  padding-right: 0;
+  padding-left: 0;
+}
+
